@@ -2,9 +2,18 @@
  * @Author: yowayimono
  * @Date: 2023-09-12 18:10:38
  * @LastEditors: yowayimono
- * @LastEditTime: 2023-09-12 18:24:18
+ * @LastEditTime: 2023-09-12 20:25:12
  * @Description: nothing
--->
+-->                  
+
+
+English | [简体中文](https://github.com/yowayimono/min-translate/blob/main/README_zh.md)
+
+
+
+
+
+
 An English translation applet
 
 It is written in python language, and supports Chinese-English translation. For the time being, only these functions can be used.
