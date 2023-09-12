@@ -7,20 +7,21 @@ def translate_text(text, source_lang, target_lang):
 
 def main():
     print("Welcome to the Chinese-English translation program")
+    print("\nPlease select a translation direction:")
+    print("1. Chinese to English Translation")
+    print("2. English to Chinese Translation")
+    print("3. Exit")
     while True:
-        print("\nPlease select a translation direction:")
-        print("1. Chinese to English Translation")
-        print("2. English to Chinese Translation")
-        print("3. Exit")
-        choice = input("Please Enter the Option（1/2/3）: ")
 
-        if choice == "1":
+        choice = input("Please Enter the Option（en/zh/exit）: ")
+
+        if choice == "en":
             source_lang = "zh"
             target_lang = "en"
-        elif choice == "2":
+        elif choice == "zh":
             source_lang = "en"
             target_lang = "zh"
-        elif choice == "3":
+        elif choice == "exit":
             print("Thank you for using, goodbye!")
             break
         else:
